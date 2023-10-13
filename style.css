@@ -350,6 +350,11 @@ li {
 }
 
 /* Styling for the second column in the subscribe section */
+.one{
+    width: 45%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
 .two {
     width: 45%;
     height: 50%;
