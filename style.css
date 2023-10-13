@@ -1,146 +1,155 @@
+/* Define custom CSS variables */
 :root {
     --green-color: #0A8080;
     --pink-color: #DB4A87;
     --white-color: #FFF;
 }
-body{
-    font-family: DM sans, san serif;
+
+/* Set the font for the entire document */
+body {
+    font-family: 'DM Sans', sans-serif;
 }
 
-
-
-
-
-
-/* Logo */
+/* Logo Section */
 .logo > img {
     width: 57px;
     height: 47px;
 }
-#spec{
+
+/* Apply styles to an element with the ID 'spec' */
+#spec {
     color: #0A8080;
 }
+
+/* Styling for the logo */
 .logo {
     width: 300px;
     display: flex;
     gap: 14px;
     align-items: center;
-    /* justify-content: center; */
 }
+
+/* Styling for the logo's h3 element */
 .logo h3 {
     font-size: 2rem;
 }
 
-li #spec{
+/* Styling for list items with the ID 'spec' */
+li #spec {
     height: 30px;
 }
-/* Logo */
 
-
-
-
-/* Nav */
-nav{
+/* Navigation Section */
+/* Style the navigation bar */
+nav {
     width: 75%;
     display: flex;
 }
 
+/* Style the menu */
 .menu {
     display: flex;
     align-items: center;
 }
 
+/* Style anchor links */
 a {
     text-decoration: none;
     color: #02073E;
 }
+
+/* Remove list-style for list items */
 li {
     list-style: none;
 }
-.navright{
+
+/* Right-aligned navigation items */
+.navright {
     display: flex;
     gap: 34px;
-    /* align-self: flex-end;
-     */
     margin-left: auto;
 }
 
-/* Nav */
-
-/* Intro */
-
-.intro{
+/* Introduction Section */
+.intro {
     width: 60%;
     text-align: center;
     position: relative;
     top: 60px;
     left: 20%;
 }
-.intro h1{
+
+/* Style the introduction header */
+.intro h1 {
     color: #02073E;
-    font-family: B612;
+    font-family: 'B612';
     font-size: 43px;
     font-weight: 700;
     line-height: 75px;
     letter-spacing: -1px;
 }
-/* Intro */
 
-/* Illustration */
-.illustration{
+/* Illustration Section */
+.illustration {
     width: 100%;
     display: flex;
     align-items: center;
 }
-.illustration img{
+
+/* Style images within the illustration section */
+.illustration img {
     width: 100%;
 }
 
-/* Illustration */
-
-
-/* wrapper */
-.wrapper{
+/* Wrapper Section */
+.wrapper {
     width: 100%;
     height: 1000px;
     background-color: #FFF5ED;
 }
-.box{
+
+/* Styling for boxes within the wrapper section */
+.box {
     width: 100%;
     height: 52%;
-    /* justify-content: center; */
 }
-.Service{
+
+/* Service Section */
+.Service {
     width: 60%;
-    /* height: 25%; */
     text-align: center;
     position: relative;
     top: 60px;
     left: 20%;
 }
-.Service h2{
+
+/* Styling for the service header */
+.Service h2 {
     color: #0F2137;
     text-align: center;
-    font-family: B612;
+    font-family: 'B612';
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
-    line-height: 50px; /* 147.059% */
+    line-height: 50px;
     letter-spacing: -0.5px;
-
 }
-.tag > img{
+
+/* Styling for tag images */
+.tag > img {
     width: 20%;
 }
-.tag{
+
+/* Styling for the tag section */
+.tag {
     width: 25%;
     display: flex;
     gap: 6%;
 }
 
-.service{
+/* Styling for the service items */
+.service {
     width: 100%;
-    /* height: 20%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,117 +157,143 @@ li {
     position: relative;
     top: 130px;
 }
-.features a{
+
+/* Styling for links within the 'features' class */
+.features a {
     color: #3183FF;
 }
-.customer{
+
+/* Customer Section */
+.customer {
     width: 100%;
     height: 50%;
     position: relative;
 }
-.Quote{
+
+/* Styling for the quote section */
+.Quote {
     margin: 0;
     width: 50%;
     margin-left: 26%;
 }
-.Quote > p{
+
+/* Styling for quote text */
+.Quote > p {
     color: #0F2137;
-    font-family: B612;
+    font-family: 'B612';
     font-size: 20px;
     font-weight: 400;
     line-height: 40px;
 }
-#advisorName{
+
+/* Styling for the advisor's name */
+#advisorName {
     color: #7E8896;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 40px; /* 250% */
+    line-height: 40px;
 }
-.Quote > img{
+
+/* Styling for quote images */
+.Quote > img {
     z-index: -1;
 }
-.companies{
+
+/* Styling for the companies section */
+.companies {
     margin-top: 3%;
     margin-left: 12%;
 }
-.customer .companies{
+
+/* Styling for the companies within the customer section */
+.customer .companies {
     width: 75%;
 }
 
-
-
-
-
-
-
-.ultimatefeatures{
+/* Styling for the 'ultimatefeatures' section */
+.ultimatefeatures {
     width: 100%;
-    
 }
-.text{
+
+/* Styling for text within the 'text' class */
+.text {
     margin-top: 5%;
     color: #0F2137;
     text-align: center;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 16px;
     font-weight: 400;
-    line-height: 35px; /* 218.75% */
+    line-height: 35px;
 }
-.text > h2{
+
+/* Styling for 'text' class header */
+.text > h2 {
     color: #0F2137;
-    font-family: B612;
+    font-family: 'B612';
     font-size: 34px;
     font-weight: 700;
-    line-height: 50px; /* 147.059% */
+    line-height: 50px;
     letter-spacing: -0.5px;
 }
-.Features{
+
+/* Features Section */
+/* Styling for the first feature section */
+.Features {
     margin-top: 70px;
     padding: 60px;
 }
-.first{
+
+/* Styling for the first feature container */
+.first {
     display: flex;
 }
-.features img{
+
+/* Styling for feature images */
+.features img {
     width: 40%;
     height: 50%;
 }
-.features{
+
+/* Styling for feature sections */
+.features {
     width: 45%;
     display: flex;
     align-items: center;
 }
-.infor p{
+
+/* Styling for information paragraphs */
+.infor p {
     color: #343D48;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
 }
 
-.Subscribe #img2{
+/* Subscribe Section */
+/* Styling for the second image in the subscribe section */
+.Subscribe #img2 {
     width: 12%;
     height: 45%;
     margin: 0;
     padding: 0;
-    /* margin-left: 2%; */
     float: left;
 }
 
-.Subscribe #img1{
+/* Styling for the first image in the subscribe section */
+.Subscribe #img1 {
     width: 8%;
     height: 45%;
     margin: 0;
     padding: 0;
-    /* margin-left: 2%; */
-    /* float: left; */
     position: relative;
     top: -26%;
     left: 3%;
 }
-.Subscribe #img3{
+
+/* Styling for the third image in the subscribe section */
+.Subscribe #img3 {
     width: 15%;
     height: 45%;
     margin: 0;
@@ -267,19 +302,25 @@ li {
     top: -26%;
     left: 76%;
 }
-.Subscribe #img4{
+
+/* Styling for the fourth image in the subscribe section */
+.Subscribe #img4 {
     width: 10%;
     height: 30%;
     margin: 0;
     padding: 0;
     margin-left: 69%;
 }
-.Subscribe{
+
+/* Styling for the Subscribe section */
+.Subscribe {
     width: 100%;
     height: 650px;
     background-color: #F8F0EA;
 }
-.subscribe{
+
+/* Styling for the subscribe container */
+.subscribe {
     background-color: #FFF;
     width: 65%;
     height: 50%;
@@ -289,95 +330,109 @@ li {
     left: 4%;
 }
 
-.one h2{
+/* Styling for the first column in the subscribe section */
+.one h2 {
     color: #0F2137;
-    font-family: B612;
+    font-family: 'B612';
     font-size: 26px;
     font-weight: 700;
-    line-height: 55px; /* 161.765% */
+    line-height: 55px;
     letter-spacing: -0.5px;
 }
-.one p{
+
+/* Styling for text in the first column */
+.one p {
     color: #343D48;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 15px;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
 }
-.one{
-    width: 45%;
-    margin-top: 7%;
-    margin-left: 5%;
-}
-.two{
+
+/* Styling for the second column in the subscribe section */
+.two {
     width: 45%;
     height: 50%;
     margin-top: 9%;
 }
-.Feild{
+
+/* Styling for the form field container */
+.Feild {
     display: flex;
 }
-input{
+
+/* Styling for input fields */
+input {
     width: 70%;
     border: none;
     outline: none;
     border-radius: 5px;
     background: #EFF3F7;
     color: #02073E;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 16px;
     font-weight: 400;
-    line-height: 40px; /* 250% */
-}   
-.two p{
+    line-height: 40px;
+}
+
+/* Styling for text in the second column */
+.two p {
     color: #9095AD;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 214.286% */
+    line-height: 30px;
 }
 
-
-
-
-
-
-
-footer{
+/* Footer Section */
+footer {
     width: 100%;
     height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.termsandconditions p{
+
+/* Styling for the 'termsandconditions' section in the footer */
+.termsandconditions p {
     color: #0F2137;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.foot{
+
+/* Styling for the 'foot' container in the footer */
+.foot {
     width: 85%;
     display: flex;
-    /* gap: 5%; */
 }
-.connect img{
+
+/* Styling for the 'connect' image in the footer */
+.connect img {
     float: left;
 }
-.group{
+
+/* Styling for the 'group' section in the footer */
+.group {
     width: 55%;
 }
-.group h3{
+
+/* Styling for the 'group' section header */
+.group h3 {
     margin-left: 40px;
 }
-.group li{
+
+/* Remove the left margin for list items within the 'group' section */
+.group li {
     margin-left: 0;
 }
+
 /* Buttons */
-.btn{
+/* Common styling for buttons */
+.btn {
     font-size: 18px;
     border-radius: 5px;
     color: var(--white-color);
@@ -385,13 +440,16 @@ footer{
     font-weight: 700;
     line-height: 40px;
 }
-.btn.Getstarted{
+
+/* Styling for the 'Get Started' button */
+.btn.Getstarted {
     width: 22%;
-    /* height: 30%; */
     background: var(--green-color);
 }
-.btn.sub{
+
+/* Styling for the 'Subscribe' button */
+.btn.sub {
     width: 30%;
     height: 119.582px;
-    background: var(--pink-color)
+    background: var(--pink-color);
 }
